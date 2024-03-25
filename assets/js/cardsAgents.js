@@ -20,7 +20,7 @@ async function setAgents() {
     const agentParam = getQueryParams();
     const agentData = await fetch(`https://valorant-api.com/v1/agents/${agentParam.agentId}`)
     const response = await agentData.json()
-    console.log(response)
+
 
     imgAgents(response.data);
     setDescription(response.data);

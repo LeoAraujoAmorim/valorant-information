@@ -88,13 +88,3 @@ function createBox(param, weapon) {
 getAllPosts()
 
 
-
-/*
-EEquippableCategory::Rifle
-EEquippableCategory::Sniper
-EEquippableCategory::SMG
-EEquippableCategory::Melee
-EEquippableCategory::Shotgun
-EEquippableCategory::Heavy
-
-*/
