@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+
+body {
+    background-color: #ECE8E1;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.title {
+    color: #383E3A;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* navbar */
+
+.menuLink {
+    color: #ECE8E1;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list-menu {
+    padding: 6px;
+    margin-left: 50px;
+}
+
+
+.list-menu:hover {
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.bg-menu {
+    background-color: #111111;
+    padding: 20px 1vh;
+}
+

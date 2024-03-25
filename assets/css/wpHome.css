@@ -1,0 +1,26 @@
+img {
+    background-color: #CCCCCC;
+    transition: ease-in-out 600ms ;
+    transform: translateX(0) scale(0.7);
+}
+
+img:hover,
+img:focus {
+    transform: translateX(5px) scale(0.75);
+}
+
+.grid-wp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+
+
+.pistol-box {
+    height: 180px;
+    width: 300px;
+}
+
+.tilte-weapons {
+    text-align: center;
+}

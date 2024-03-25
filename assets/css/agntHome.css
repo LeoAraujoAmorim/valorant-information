@@ -1,0 +1,29 @@
+
+/* section dos agents */
+
+.icons-agents{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 12px;
+    margin: 0 390px;
+}
+
+
+
+
+/* img */
+
+.imgIcon {
+    height: 128px;
+    transition: ease-in-out 600ms ;
+    transform: translateX(0) scale(0.9);
+}
+
+.imgIcon:hover,
+.imgIcon:focus{
+
+    background-color: rgba(255, 70, 85, 0.8);
+    transform: translateX(5px) scale(1);
+    
+    
+}
