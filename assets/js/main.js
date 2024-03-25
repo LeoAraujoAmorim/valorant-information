@@ -26,7 +26,7 @@ function setAgents(agents) {
 
       link.classList.add('links');
       list.classList.add('list-agents')
-      link.setAttribute('href', `agentsInfo.html?agentId=${agent.uuid}`);
+      link.setAttribute('href', `/agentsInfo.html?agentId=${agent.uuid}`);
       img.setAttribute('src', `https://media.valorant-api.com/agents/${agent.uuid}/displayiconsmall.png`)
       img.classList.add('imgIcon');
       
