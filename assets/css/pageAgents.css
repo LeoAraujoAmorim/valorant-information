@@ -13,28 +13,28 @@ body {
     align-items: center;
     justify-content: center;
     text-wrap: balance;
-    padding: 0 85px;
-    padding-bottom: 80px;
+    padding: 0 8.5rem;
+    padding-bottom: 8rem;
     color: #383E3A;
     
 
 }
 
 p {
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     
 
 }
 
 #agentsTitle{
-    font-size: 35px;
+    font-size: 3.5rem;
     text-align: center; 
 }
 
 h1, h2 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
 }
 
 
@@ -49,15 +49,15 @@ h1, h2 {
 
 .bloco-habilidades {
     text-align: center;
-    border: 1px solid;
-    margin: 30px 20px;
-    padding: 50px 10px;
-    box-shadow: 10px 10px #ECE8E1;
+    border: .1rem solid;
+    margin: 3rem 2rem;
+    padding: 5rem 1rem;
+    box-shadow: 1rem 1rem #ECE8E1;
 }
 
 .bg-abilities{
     background-color: #FF4655;;
-    padding: 50px;
+    padding: 5rem;
     color: white;
 }
 
@@ -65,9 +65,9 @@ h1, h2 {
 
 /* imagens */
 #imgAgent {
-    height: 600px;
+    height: 60rem;
 }
 
 .imgAbilities {
-    height: 128px;
+    height: 12.8rem;
 }

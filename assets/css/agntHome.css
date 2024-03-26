@@ -3,26 +3,20 @@
 
 .icons-agents{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-   
-    
+    grid-template-columns: repeat(8, 1fr); 
+    margin: 0 20%;
 }
 
-.center{
-    text-align: center;
-}
 
-.list-agent {
- 
-}
 
 
 /* img */
 
 .imgIcon {
-    height: 128px;
+    height: 12.8rem;
     transition: ease-in-out 600ms ;
     transform: translateX(0) scale(0.9);
+    border: .1rem solid white;
 }
 
 .imgIcon:hover,

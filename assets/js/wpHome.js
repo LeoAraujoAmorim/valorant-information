@@ -69,6 +69,8 @@ function createBox(param, weapon) {
     const box = document.querySelector(param);
     const link = document.createElement('a');
     const img = document.createElement('img');
+    const nameWp = document.createElement('p');
+    const div = document.createElement('div');
 
     if(param === '.pistol') {
         img.classList.add('pistol-box');
@@ -77,9 +79,14 @@ function createBox(param, weapon) {
     
     link.setAttribute('href', `/${weapon.displayName}`);
     img.setAttribute('src', `https://media.valorant-api.com/weapons/${weapon.uuid}/displayicon.png`)
+    nameWp.innerText = weapon.displayName;
+    div.classList.add('wp-link');
+    
     
     box.appendChild(link);
-    link.appendChild(img);
+    link.appendChild(div)
+    div.appendChild(img);
+    div.append(nameWp);
 }
 
 
