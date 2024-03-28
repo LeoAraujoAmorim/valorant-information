@@ -12,7 +12,7 @@ function getQueryParams() {
     }
 
     return params;
-
+    
 }
 
 

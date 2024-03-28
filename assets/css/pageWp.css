@@ -1,0 +1,64 @@
+body {
+    background: rgb(0,10,42);
+    background: linear-gradient(90deg, rgba(0,10,42,1) 0%, rgba(4,32,139,1) 21%, rgba(0,40,251,1) 50%, rgba(4,32,139,1) 79%, rgba(0,10,42,1) 100%);
+
+}
+
+p {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+
+.wp-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70rem;
+}
+
+
+
+/* crousel */
+.wrapper {
+    margin: 0 10rem;
+    bottom: 1rem;
+    position: fixed;
+    text-align: center;
+}
+
+.wrapper .carousel {
+    white-space: nowrap;
+    font-size: 0px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+
+.carousel img {
+    height: 13rem;
+    object-fit: cover;
+    margin-left: 1.4rem;
+    width: calc(100% / 11);
+    border: 1px solid white;
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
+.imgIcon {
+    height: 12.8rem;
+    transition: ease-in-out 500ms ;
+    transform: translateX(0) scale(0.9);
+    border: .1rem solid white;
+}
+.imgIcon:hover,
+.imgIcon:focus{
+    transform: translateX(5px) scale(1); 
+  
+}

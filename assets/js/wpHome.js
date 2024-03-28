@@ -75,9 +75,12 @@ function createBox(param, weapon) {
     if(param === '.pistol') {
         img.classList.add('pistol-box');
     }
+    if(param === '.melee') {
+        img.classList.add('melee-box');
+    }
     
     
-    link.setAttribute('href', `/${weapon.displayName}`);
+    link.setAttribute('href', `/weapons/wpPage.html?weaponId=${weapon.uuid}`);
     img.setAttribute('src', `https://media.valorant-api.com/weapons/${weapon.uuid}/displayicon.png`)
     nameWp.innerText = weapon.displayName;
     div.classList.add('wp-link');
