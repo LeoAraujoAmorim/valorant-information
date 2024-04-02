@@ -1,0 +1,26 @@
+background {
+    opacity: 1;
+}
+
+.show-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 65rem;
+    width: 65rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-style: bold;
+    margin-top: 5rem;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+}
